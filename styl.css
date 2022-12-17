@@ -1,0 +1,94 @@
+/* header section */
+.header {
+  /* border-style: solid; */
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  margin: 0px 20px 0px 20px;
+  align-items: center;
+}
+
+.header-nav-img{
+  width: 5%;
+  height: 5%;
+}
+.head-nav-menu{
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  /* border-style: solid; */
+  list-style: none;
+}
+.menu-dropdown-liste{
+  display: none;
+  position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 20%;
+  padding-left: 1%;
+}
+.menu-dropdown:hover .menu-dropdown-liste {
+  display: block;
+}
+.menu-dropdown-liste a{
+  display: block;
+}
+
+.session{
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
+  margin-left: 3%;
+  align-items: center;
+}
+.css-blue{
+  color: rgb(21, 138, 255);
+}
+.left-session-button{
+  background-color: rgb(191, 186, 186);
+  border: none;
+  cursor: pointer;
+ border-radius: 7px;
+}
+.card{
+flex-direction: column;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+}
+footer{
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.left-footer{
+  color: white;
+  margin-left: 5%;
+  align-items: center;
+  display: flex;
+
+}
+.card .card-img-top{
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.card .card-img-top{
+  width: 300px;
+  height: 300px;
+}
+.col .form-label{
+  width: 40%;
+  height: 10%;
+}
